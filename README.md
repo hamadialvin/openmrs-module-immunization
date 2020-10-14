@@ -1,2 +1,6 @@
-# openmrs-module-immunization
-An immunization application for healthworkers.
+${moduleName}
+==========================
+
+Description
+-----------
+An immunization application for healthcare workers
