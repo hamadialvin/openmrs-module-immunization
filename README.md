@@ -1,4 +1,4 @@
-${moduleName}
+openmrs-module-immunization
 ==========================
 
 Description
