@@ -19,6 +19,8 @@
 		<openmrsPlatformVersion>1.11.6</openmrsPlatformVersion>
 		<appframeworkVersion>2.4</appframeworkVersion>
 		<appuiVersion>1.4</appuiVersion>
+		<kenyacoreVersion>2.4.1</kenyacoreVersion>
+		<kenyauiVersion>2.1.1</kenyauiVersion>
 		<uiframeworkModuleVersion>3.8</uiframeworkModuleVersion>
 		<reportingVersion>0.9.8.1</reportingVersion>
 		<serializationVersion>0.2.7</serializationVersion>
@@ -85,6 +87,18 @@
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>appui-omod</artifactId>
 				<version>${appuiVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>kenyacore-api</artifactId>
+				<version>${kenyacoreVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>kenyaui-api</artifactId>
+				<version>${kenyauiVersion}</version>
 				<scope>provided</scope>
 			</dependency>
 			<!--End of module dependacy -->
