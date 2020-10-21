@@ -25,6 +25,15 @@
 
     <context:component-scan base-package="org.openmrs.module.immunization" />
 
+    <!-- Add here beans related to the API context -->
+    <bean id="immunization.app.patientimmunization" factory-bean="kenyacore.appFactoryBean" factory-method="createInstance">
+    <constructor-arg value="immunization.patientimmunization"/>
+    <constructor-arg value="Immunization"/>
+    <constructor-arg value="immunization/patientimmunization.page"/>
+    <constructor-arg value="immunization:app/immunization.jpg"/>
+    <constructor-arg value="720"/>
+    </bean>
+
     <!-- Wraps ImmunizationService methods in DB transactions and OpenMRS interceptors,
     which set audit info like dateCreated, changedBy, etc.-->
     <bean id="immunization.ImmunizationService"
