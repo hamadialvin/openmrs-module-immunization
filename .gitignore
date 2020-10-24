@@ -1,9 +1,19 @@
-**/target
-/.git
-/.settings
-/.project
-/.classpath
-.idea/
+### IntelliJ Idea ###
 *.iml
-api/mchapp-api.iml
-omod/mchapp-omod.iml
+.idea/
+.settings/
+
+### Auto generated folders ###
+api/target/
+omod/target/
+#############
+
+### Java ###
+*.class
+
+# Java Package Files #
+*.jar
+*.omod
+*.war
+*.ear
+############
