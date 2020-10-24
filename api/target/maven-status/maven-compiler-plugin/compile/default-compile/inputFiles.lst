@@ -1,6 +1,0 @@
-/home/hamadi/IdeaProjects/openmrs-module-immunization/api/src/main/java/org/openmrs/module/immunization/api/ImmunizationService.java
-/home/hamadi/IdeaProjects/openmrs-module-immunization/api/src/main/java/org/openmrs/module/immunization/api/impl/ImmunizationServiceImpl.java
-/home/hamadi/IdeaProjects/openmrs-module-immunization/api/src/main/java/org/openmrs/module/immunization/api/dao/ImmunizationDao.java
-/home/hamadi/IdeaProjects/openmrs-module-immunization/api/src/main/java/org/openmrs/module/immunization/ImmunizationConfig.java
-/home/hamadi/IdeaProjects/openmrs-module-immunization/api/src/main/java/org/openmrs/module/immunization/Item.java
-/home/hamadi/IdeaProjects/openmrs-module-immunization/api/src/main/java/org/openmrs/module/immunization/ImmunizationActivator.java

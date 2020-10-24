@@ -1,6 +1,0 @@
-org/openmrs/module/immunization/ImmunizationActivator.class
-org/openmrs/module/immunization/Item.class
-org/openmrs/module/immunization/api/impl/ImmunizationServiceImpl.class
-org/openmrs/module/immunization/api/dao/ImmunizationDao.class
-org/openmrs/module/immunization/ImmunizationConfig.class
-org/openmrs/module/immunization/api/ImmunizationService.class
