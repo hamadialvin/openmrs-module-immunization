@@ -30,7 +30,7 @@
     <constructor-arg value="immunization.patientimmunization"/>
     <constructor-arg value="Immunization"/>
     <constructor-arg value="immunization/patientimmunization.page"/>
-    <constructor-arg value="immunization:app/immunization.jpg"/>
+    <constructor-arg value="immunization:apps/immunization.png"/>
     <constructor-arg value="720"/>
     </bean>
 
