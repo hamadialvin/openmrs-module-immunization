@@ -31,7 +31,7 @@
     <constructor-arg value="Immunization"/>
     <constructor-arg value="immunization/patientimmunization.page"/>
     <constructor-arg value="immunization:apps/immunization.png"/>
-    <constructor-arg value="720"/>
+    <constructor-arg value="520"/>
     </bean>
 
     <!-- Wraps ImmunizationService methods in DB transactions and OpenMRS interceptors,
