@@ -26,10 +26,10 @@
     <context:component-scan base-package="org.openmrs.module.immunization" />
 
     <!-- Add here beans related to the API context -->
-    <bean id="immunization.app.patientimmunization" factory-bean="kenyacore.appFactoryBean" factory-method="createInstance">
-    <constructor-arg value="immunization.patientimmunization"/>
+    <bean id="immunization.app.immunizationDashboard" factory-bean="kenyacore.appFactoryBean" factory-method="createInstance">
+    <constructor-arg value="immunization.immunizationDashboard"/>
     <constructor-arg value="Immunization"/>
-    <constructor-arg value="immunization/patientimmunization.page"/>
+    <constructor-arg value="immunization/immunizationDashboard.page"/>
     <constructor-arg value="immunization:apps/immunization.png"/>
     <constructor-arg value="520"/>
     </bean>

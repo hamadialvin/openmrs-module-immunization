@@ -1,3 +1,4 @@
 package org.openmrs.module.immunization.web.controller.pages;
 
-public class PatientimmunizationPageController {}
+public class ImmunizationDashboardPageController {
+}
