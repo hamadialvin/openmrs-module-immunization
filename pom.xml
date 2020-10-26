@@ -21,7 +21,7 @@
 		<appuiVersion>1.4</appuiVersion>
 		<kenyacoreVersion>2.4.1</kenyacoreVersion>
 		<kenyauiVersion>2.1.1</kenyauiVersion>
-		<uiframeworkModuleVersion>3.8</uiframeworkModuleVersion>
+		<uiframeworkVersion>3.8</uiframeworkVersion>
 		<reportingVersion>0.9.8.1</reportingVersion>
 		<serializationVersion>0.2.7</serializationVersion>
 		<calculationVersion>1.1</calculationVersion>
@@ -80,7 +80,7 @@
 			<dependency>
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>uiframework-api</artifactId>
-				<version>${uiframeworkModuleVersion}</version>
+				<version>${uiframeworkVersion}</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>

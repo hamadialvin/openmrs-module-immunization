@@ -29,7 +29,33 @@
 			<scope>provided</scope>
 			<classifier>tests</classifier>
 		</dependency>
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>reporting-api</artifactId>
+			<version>${reportingVersion}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>uiframework-api</artifactId>
+			<version>3.8</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>kenyaemr-api</artifactId>
+			<version>17.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>kenyaemr-omod</artifactId>
+			<version>17.1.0</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
+
+
 
 	<build>
 		<finalName>${project.parent.artifactId}-${project.parent.version}</finalName>
