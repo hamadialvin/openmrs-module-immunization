@@ -85,6 +85,12 @@
 			</dependency>
 			<dependency>
 				<groupId>org.openmrs.module</groupId>
+				<artifactId>uilibrary-api</artifactId>
+				<version>2.0.4</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
 				<artifactId>appui-omod</artifactId>
 				<version>${appuiVersion}</version>
 				<scope>provided</scope>
@@ -93,6 +99,12 @@
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>kenyacore-api</artifactId>
 				<version>${kenyacoreVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>kenyaemr-api</artifactId>
+				<version>17.1.0</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
